@@ -95,7 +95,7 @@ def enroll_course(request, course_id: int):
     return course_member
 
 # - list content comment
-@apiv1.get("/contents/{content_id}/comments", auth=apiAuth, response=list[CourseContentMini])
+@apiv1.get("/contents/{content_id}/comments", auth=apiAuth, response=list[CourseCommentOut])
 def list_content_comment(request, content_id: int):
     comments = CourseContent.objects.filter(course_id=content_id)
     return comments
