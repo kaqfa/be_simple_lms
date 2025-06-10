@@ -1,0 +1,49 @@
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+env/
+venv/
+.env
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+static/
+local_settings.py
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Coverage/Test
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Migration
+*/migrations/*.py
+!*/migrations/__init__.py
+
+jwt-signing-key.pem
+jwt-signing-key.pub

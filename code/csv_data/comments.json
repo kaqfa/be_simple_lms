@@ -1,0 +1,2502 @@
+[
+	{
+		"content_id": 184,
+		"user_id": 44,
+		"comment": "vs. exec() built-in functions (in Python 2, exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case is that an assignment"
+	},
+	{
+		"content_id": 496,
+		"user_id": 41,
+		"comment": "Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if blocks The eval() vs. exec() built-in functions (in Python 2,"
+	},
+	{
+		"content_id": 223,
+		"user_id": 29,
+		"comment": "operator can be used to concatenate two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of"
+	},
+	{
+		"content_id": 137,
+		"user_id": 21,
+		"comment": "the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns"
+	},
+	{
+		"content_id": 169,
+		"user_id": 45,
+		"comment": "to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it"
+	},
+	{
+		"content_id": 235,
+		"user_id": 63,
+		"comment": "are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to"
+	},
+	{
+		"content_id": 79,
+		"user_id": 85,
+		"comment": "be expected, since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics are slightly"
+	},
+	{
+		"content_id": 10,
+		"user_id": 53,
+		"comment": "is a shallow copy. In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example:"
+	},
+	{
+		"content_id": 218,
+		"user_id": 62,
+		"comment": "in lists, denoted as a, astop] or astop:step]. Indexes are zero-based, and negative indexes are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped and"
+	},
+	{
+		"content_id": 166,
+		"user_id": 19,
+		"comment": "in the current program The assignment statement (=) binds a name as a reference to a separate, dynamically allocated object. Variables may subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder without a"
+	},
+	{
+		"content_id": 2,
+		"user_id": 53,
+		"comment": "which defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring a lock before it is run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and"
+	},
+	{
+		"content_id": 100,
+		"user_id": 29,
+		"comment": "along with else and elif (a contraction of else-if) The for statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block The"
+	},
+	{
+		"content_id": 276,
+		"user_id": 45,
+		"comment": "in some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes"
+	},
+	{
+		"content_id": 169,
+		"user_id": 58,
+		"comment": "is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and, or, and not as"
+	},
+	{
+		"content_id": 410,
+		"user_id": 64,
+		"comment": "statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being"
+	},
+	{
+		"content_id": 97,
+		"user_id": 97,
+		"comment": "memory management. It uses dynamic name resolution (late binding), which binds method and variable names during program execution. Its design offers some support for functional programming in the Lisp tradition. It has filter,mapandreduce functions; list comprehensions, dictionaries, sets, and generator expressions. The standard library"
+	},
+	{
+		"content_id": 350,
+		"user_id": 36,
+		"comment": "core, Python was designed to be highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's"
+	},
+	{
+		"content_id": 75,
+		"user_id": 29,
+		"comment": "reflection. Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current Python versions only support the semantics of the new style. Python supports optional type annotations. These annotations are not enforced by the language, but may be used by"
+	},
+	{
+		"content_id": 401,
+		"user_id": 73,
+		"comment": "a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions"
+	},
+	{
+		"content_id": 126,
+		"user_id": 95,
+		"comment": "binds method and variable names during program execution. Its design offers some support for functional programming in the Lisp tradition. It has filter,mapandreduce functions; list comprehensions, dictionaries, sets, and generator expressions. The standard"
+	},
+	{
+		"content_id": 69,
+		"user_id": 38,
+		"comment": "3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by adding them (with the same operator as for adding integers and floats), e.g. spam + eggs returns spameggs. If strings contain numbers, they are added as strings"
+	},
+	{
+		"content_id": 322,
+		"user_id": 57,
+		"comment": "programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances"
+	},
+	{
+		"content_id": 353,
+		"user_id": 19,
+		"comment": "semantics of the new style. Python supports optional type annotations. These annotations are not enforced by the language, but may be used by external tools such as mypy to catch"
+	},
+	{
+		"content_id": 194,
+		"user_id": 57,
+		"comment": "and double quotes work the same. Both use the backslash  as an escape character. String interpolation became available in Python 3.6 as formatted string literals. Triple-quoted (beginning"
+	},
+	{
+		"content_id": 299,
+		"user_id": 6,
+		"comment": "borrowed from Haskell and Standard ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Readability counts. However, Python"
+	},
+	{
+		"content_id": 489,
+		"user_id": 72,
+		"comment": "this was supplemented by the format() method of the str class, e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by adding them (with the same operator as for adding integers and floats), e.g. spam +"
+	},
+	{
+		"content_id": 148,
+		"user_id": 42,
+		"comment": "are not checked at compile time; rather, operations on an object may fail, signifying that it is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding"
+	},
+	{
+		"content_id": 232,
+		"user_id": 36,
+		"comment": "better support for coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally out of the generator. From Python 2.5 on, it is possible to pass data back"
+	},
+	{
+		"content_id": 340,
+		"user_id": 12,
+		"comment": "run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise a caught exception The class statement, which executes a block of code and attaches its local namespace to a class, for use in object-oriented programming"
+	},
+	{
+		"content_id": 285,
+		"user_id": 56,
+		"comment": "clarity. Execution speed can be improved by moving speed-critical functions to extension modules written in languages such as C, or by using a just-in-time compiler like PyPy. It is also possible to cross-compile to other languages, but it"
+	},
+	{
+		"content_id": 247,
+		"user_id": 66,
+		"comment": "materials, such as the use of the terms spam and eggs (a reference to a Monty Python sketch) in examples, instead of the"
+	},
+	{
+		"content_id": 334,
+		"user_id": 41,
+		"comment": "* operators for mathematical addition, subtraction, and multiplication are similar to other languages, but the behavior of division differs. There are two types of divisions in Python: floor division (or integer division) // and floating-point/division. Python uses the ** operator"
+	},
+	{
+		"content_id": 80,
+		"user_id": 67,
+		"comment": "and negative indexes are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third"
+	},
+	{
+		"content_id": 68,
+		"user_id": 84,
+		"comment": "general expression named a generator expression. Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body. Conditional expressions are written as x if c else y (different in order of operands from"
+	},
+	{
+		"content_id": 160,
+		"user_id": 67,
+		"comment": "Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations and"
+	},
+	{
+		"content_id": 161,
+		"user_id": 41,
+		"comment": "new-style; current Python versions only support the semantics of the new style. Python supports optional type annotations. These annotations are not enforced by the language, but may be used by external tools"
+	},
+	{
+		"content_id": 135,
+		"user_id": 93,
+		"comment": "the Python community is pythonic, which has a wide range of meanings related to program style. Pythonic code may use Python idioms well, be natural or show fluency"
+	},
+	{
+		"content_id": 82,
+		"user_id": 49,
+		"comment": "structured programming are fully supported, and many of their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are supported via extensions, including design by contract and logic programming. Python uses dynamic typing and"
+	},
+	{
+		"content_id": 47,
+		"user_id": 30,
+		"comment": "compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and, or, and not as Boolean operators. Python has a type of expression"
+	},
+	{
+		"content_id": 160,
+		"user_id": 59,
+		"comment": "spam=blah eggs=2. In Python 2.6+ and 3+, this was supplemented by the format() method of the str class, e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated"
+	},
+	{
+		"content_id": 200,
+		"user_id": 72,
+		"comment": "often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself),"
+	},
+	{
+		"content_id": 237,
+		"user_id": 49,
+		"comment": "explicit self parameter to access instance data, in contrast to the implicit self (or this) in some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined"
+	},
+	{
+		"content_id": 65,
+		"user_id": 76,
+		"comment": "languages, single and double quotes work the same. Both use the backslash  as an escape character. String interpolation became available in Python 3.6 as formatted string literals. Triple-quoted (beginning and ending with three single or double quotes), which may span multiple lines and function like here"
+	},
+	{
+		"content_id": 123,
+		"user_id": 27,
+		"comment": "Python 2.5 on, it is possible to pass data back into a generator function; and from version 3.3, it can be passed through multiple stack levels. Expressions Python's expressions include: The +, -, and * operators for"
+	},
+	{
+		"content_id": 194,
+		"user_id": 36,
+		"comment": "Perl, and Perl-influenced languages, single and double quotes work the same. Both use the backslash  as an escape character. String interpolation became available in Python 3.6 as formatted string literals. Triple-quoted (beginning and ending with three single or double quotes), which may span multiple lines and"
+	},
+	{
+		"content_id": 246,
+		"user_id": 35,
+		"comment": "statement, used in debugging to check for conditions that should apply The yield statement, which returns a value from a generator function (and also an operator); used"
+	},
+	{
+		"content_id": 103,
+		"user_id": 63,
+		"comment": "to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects"
+	},
+	{
+		"content_id": 138,
+		"user_id": 31,
+		"comment": "and received criticism for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than"
+	},
+	{
+		"content_id": 10,
+		"user_id": 70,
+		"comment": "values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator % that functions analogously to printf format strings in C—e.g. spam=%s eggs=%d %"
+	},
+	{
+		"content_id": 121,
+		"user_id": 92,
+		"comment": "a combination of reference counting and a cycle-detecting garbage collector for memory management. It uses dynamic name resolution (late binding), which binds method and variable names during program execution. Its design offers some support for functional programming in the Lisp tradition."
+	},
+	{
+		"content_id": 339,
+		"user_id": 10,
+		"comment": "double quotes work the same. Both use the backslash  as an escape character. String interpolation became available in Python 3.6 as formatted string literals. Triple-quoted (beginning and ending with three single or double quotes),"
+	},
+	{
+		"content_id": 88,
+		"user_id": 51,
+		"comment": "The del statement, which removes a variable—deleting the reference from the name to the value, and producing an error if the variable is referred to before it is redefined The pass statement, serving as"
+	},
+	{
+		"content_id": 447,
+		"user_id": 49,
+		"comment": "Python Software Foundation and Python book author, wrote: To describe something as 'clever' is not considered a compliment in the Python culture. Python's developers usually strive to avoid"
+	},
+	{
+		"content_id": 123,
+		"user_id": 11,
+		"comment": "dictionaries, sets, and generator expressions. The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as:"
+	},
+	{
+		"content_id": 423,
+		"user_id": 38,
+		"comment": "semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to tutorials and reference materials,"
+	},
+	{
+		"content_id": 490,
+		"user_id": 39,
+		"comment": "a value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it never will. However,"
+	},
+	{
+		"content_id": 415,
+		"user_id": 77,
+		"comment": "operator common to many other languages). Python makes a distinction between lists and tuples. Lists are written as 2, 3], are mutable, and cannot be used"
+	},
+	{
+		"content_id": 177,
+		"user_id": 32,
+		"comment": "Python was designed to be highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core"
+	},
+	{
+		"content_id": 478,
+		"user_id": 45,
+		"comment": "is compiled, and possibly semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to tutorials and"
+	},
+	{
+		"content_id": 282,
+		"user_id": 79,
+		"comment": "it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to tutorials and reference materials, such as the use of the terms spam and eggs (a"
+	},
+	{
+		"content_id": 445,
+		"user_id": 25,
+		"comment": "ending with three single or double quotes), which may span multiple lines and function like here documents in shells, Perl, and Ruby. Raw string varieties, denoted by prefixing the string"
+	},
+	{
+		"content_id": 109,
+		"user_id": 48,
+		"comment": "block is always run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise a caught exception The class statement, which executes a block of code"
+	},
+	{
+		"content_id": 164,
+		"user_id": 80,
+		"comment": "name as a reference to a separate, dynamically allocated object. Variables may subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder"
+	},
+	{
+		"content_id": 118,
+		"user_id": 75,
+		"comment": "This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach."
+	},
+	{
+		"content_id": 399,
+		"user_id": 92,
+		"comment": "two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first"
+	},
+	{
+		"content_id": 242,
+		"user_id": 60,
+		"comment": "2, 3), executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), which is then assigned back to t—thereby effectively modifying the contents of t while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples"
+	},
+	{
+		"content_id": 325,
+		"user_id": 8,
+		"comment": "value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it never will. However, better"
+	},
+	{
+		"content_id": 316,
+		"user_id": 57,
+		"comment": "it can be passed through multiple stack levels. Expressions Python's expressions include: The +, -, and * operators for mathematical addition, subtraction, and multiplication are similar to other languages, but the behavior of"
+	},
+	{
+		"content_id": 444,
+		"user_id": 77,
+		"comment": "ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations"
+	},
+	{
+		"content_id": 435,
+		"user_id": 79,
+		"comment": "are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped"
+	},
+	{
+		"content_id": 109,
+		"user_id": 6,
+		"comment": "increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block. Thus, the program's visual structure accurately represents its semantic structure. This feature"
+	},
+	{
+		"content_id": 396,
+		"user_id": 88,
+		"comment": "larger expression. In Python, == compares by value. Python's is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and,"
+	},
+	{
+		"content_id": 37,
+		"user_id": 56,
+		"comment": "evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), which is then assigned back to t—thereby effectively modifying the contents of t while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts. Python features sequence unpacking where multiple expressions,"
+	},
+	{
+		"content_id": 355,
+		"user_id": 19,
+		"comment": "the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement,"
+	},
+	{
+		"content_id": 456,
+		"user_id": 64,
+		"comment": "a generator expression. Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body. Conditional expressions are written as x if"
+	},
+	{
+		"content_id": 336,
+		"user_id": 83,
+		"comment": "features had been so controversial that Guido van Rossum resigned as Benevolent Dictator for Life following vitriol over the addition of the assignment expression"
+	},
+	{
+		"content_id": 329,
+		"user_id": 31,
+		"comment": "operator, was introduced in Python 3.8. It assigns values to variables as part of a larger expression. In Python, == compares by value. Python's is operator may be used to compare object identities (comparison by"
+	},
+	{
+		"content_id": 200,
+		"user_id": 20,
+		"comment": "example: List comprehensions vs. for-loops Conditional expressions vs. if blocks The eval() vs. exec() built-in functions (in Python 2, exec is a statement); the former"
+	},
+	{
+		"content_id": 256,
+		"user_id": 8,
+		"comment": "eggs (a reference to a Monty Python sketch) in examples, instead of the often-used foo and bar. A common neologism in the Python community is pythonic, which"
+	},
+	{
+		"content_id": 298,
+		"user_id": 57,
+		"comment": "is better than complicated. Readability counts. However, Python features regularly violate these principles and received criticism for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than a rule. The addition of some new"
+	},
+	{
+		"content_id": 408,
+		"user_id": 69,
+		"comment": "multiple expressions, each evaluating to anything that can be assigned (to a variable, writable property, etc.) are associated in an identical manner to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement."
+	},
+	{
+		"content_id": 108,
+		"user_id": 29,
+		"comment": "optional type annotations. These annotations are not enforced by the language, but may be used by external tools such as mypy to catch errors. Mypy also supports a Python compiler called mypyc, which"
+	},
+	{
+		"content_id": 3,
+		"user_id": 80,
+		"comment": "and function like here documents in shells, Perl, and Ruby. Raw string varieties, denoted by prefixing the string literal with r. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare @-quoting in C#.)"
+	},
+	{
+		"content_id": 16,
+		"user_id": 15,
+		"comment": "block of code, along with else and elif (a contraction of else-if) The for statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block The while statement, which executes a"
+	},
+	{
+		"content_id": 421,
+		"user_id": 64,
+		"comment": "languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if"
+	},
+	{
+		"content_id": 284,
+		"user_id": 18,
+		"comment": "highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed"
+	},
+	{
+		"content_id": 97,
+		"user_id": 12,
+		"comment": "generators were lazy iterators; data was passed unidirectionally out of the generator. From Python 2.5 on, it is possible to pass data back into a generator function; and from version 3.3, it can be passed through multiple stack levels."
+	},
+	{
+		"content_id": 201,
+		"user_id": 76,
+		"comment": "etc.) are associated in an identical manner to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the right-hand side of the equal sign that produces the"
+	},
+	{
+		"content_id": 266,
+		"user_id": 5,
+		"comment": "a variable name is a generic reference holder without a fixed data type; however, it always refers to some object with a"
+	},
+	{
+		"content_id": 455,
+		"user_id": 29,
+		"comment": "may use Python idioms well, be natural or show fluency in the language, or conform with Python's minimalist philosophy and emphasis on readability. Code that is difficult to understand or reads like a rough transcription"
+	},
+	{
+		"content_id": 332,
+		"user_id": 86,
+		"comment": "varieties, denoted by prefixing the string literal with r. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular"
+	},
+	{
+		"content_id": 277,
+		"user_id": 59,
+		"comment": "sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare @-quoting in C#.) Python has array index and array slicing expressions in"
+	},
+	{
+		"content_id": 450,
+		"user_id": 33,
+		"comment": "Nevertheless, rather than building all of its functionality into its core, Python was designed to be highly extensible via modules. This compact"
+	},
+	{
+		"content_id": 7,
+		"user_id": 75,
+		"comment": "a copy of the entire list. Each element of a slice is a shallow copy. In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions"
+	},
+	{
+		"content_id": 205,
+		"user_id": 35,
+		"comment": "Python 3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by adding them"
+	},
+	{
+		"content_id": 194,
+		"user_id": 76,
+		"comment": "Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally"
+	},
+	{
+		"content_id": 208,
+		"user_id": 36,
+		"comment": "exec() built-in functions (in Python 2, exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case"
+	},
+	{
+		"content_id": 109,
+		"user_id": 31,
+		"comment": "zero-based, and negative indexes are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped and reversed. Slice indexes may"
+	},
+	{
+		"content_id": 122,
+		"user_id": 33,
+		"comment": "The continue statement, which skips the rest of the current iteration and continues with the next The del statement, which removes a variable—deleting the reference from the name to the value, and producing an error if the variable is referred to"
+	},
+	{
+		"content_id": 210,
+		"user_id": 57,
+		"comment": "Responses to these criticisms are that the Zen of Python is a guideline rather than a rule. The addition of some new features had been so controversial that Guido van Rossum resigned as Benevolent Dictator for Life following vitriol"
+	},
+	{
+		"content_id": 33,
+		"user_id": 26,
+		"comment": "and floats), e.g. spam + eggs returns spameggs. If strings contain numbers, they are added as strings rather than integers, e.g. 2 + 2 returns 22. Python has various string literals: Delimited by single or double quotes; unlike in Unix"
+	},
+	{
+		"content_id": 225,
+		"user_id": 6,
+		"comment": "dictionaries (dictionary keys must be immutable in Python). Tuples, written as (1, 2, 3), are immutable and thus can be used as keys of"
+	},
+	{
+		"content_id": 14,
+		"user_id": 40,
+		"comment": "statement, which executes a block of code and attaches its local namespace to a class, for use in object-oriented programming The def statement,"
+	},
+	{
+		"content_id": 250,
+		"user_id": 36,
+		"comment": "than a rule. The addition of some new features had been so controversial that Guido van Rossum resigned as Benevolent Dictator for Life following vitriol over the addition of the assignment expression operator in Python 3.8."
+	},
+	{
+		"content_id": 214,
+		"user_id": 19,
+		"comment": "a just-in-time compiler like PyPy. It is also possible to cross-compile to other languages, but it either doesn't provide the full speed-up that might be expected, since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics"
+	},
+	{
+		"content_id": 112,
+		"user_id": 6,
+		"comment": "statement, which skips the rest of the current iteration and continues with the next The del statement, which removes a variable—deleting the reference from the name to the value, and producing an error if the variable is referred to before it is redefined The pass statement, serving"
+	},
+	{
+		"content_id": 255,
+		"user_id": 90,
+		"comment": "duplicating a string a specified number of times. The @ infix operator. It is intended to be used by libraries such as"
+	},
+	{
+		"content_id": 65,
+		"user_id": 51,
+		"comment": "most, indentation has no semantic meaning. The recommended indent size is four spaces. Statements and control flow Python's statements include: The assignment statement, using a single equals sign = The if statement, which conditionally executes a block of code, along"
+	},
+	{
+		"content_id": 217,
+		"user_id": 82,
+		"comment": "refers to some object with a type. This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a value"
+	},
+	{
+		"content_id": 491,
+		"user_id": 9,
+		"comment": "claims to strive for a simpler, less-cluttered syntax and grammar while giving developers a choice in their coding methodology. In contrast to Perl's there is more than one way to do it motto, Python embraces a there should be one—and preferably only one—obvious way to do it. philosophy. In"
+	},
+	{
+		"content_id": 476,
+		"user_id": 68,
+		"comment": "languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including"
+	},
+	{
+		"content_id": 213,
+		"user_id": 96,
+		"comment": "opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement, which removes a"
+	},
+	{
+		"content_id": 377,
+		"user_id": 52,
+		"comment": "which one a programmer should use. Alex Martelli, a Fellow at the Python Software Foundation and Python book author, wrote: To describe something as 'clever' is not considered a compliment in the Python culture. Python's"
+	},
+	{
+		"content_id": 489,
+		"user_id": 84,
+		"comment": "use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal. Indentation Main article: Python syntax and semantics § Indentation Python"
+	},
+	{
+		"content_id": 148,
+		"user_id": 85,
+		"comment": "body. Conditional expressions are written as x if c else y (different in order of operands from the c ? x : y operator common to many other languages). Python makes a distinction between lists and tuples. Lists are written as 2, 3],"
+	},
+	{
+		"content_id": 34,
+		"user_id": 19,
+		"comment": "immutable in Python). Tuples, written as (1, 2, 3), are immutable and thus can be used as keys of dictionaries, provided all of the tuple's elements are immutable. The + operator can be used to concatenate two tuples, which"
+	},
+	{
+		"content_id": 53,
+		"user_id": 97,
+		"comment": "if the variable is referred to before it is redefined The pass statement, serving as a NOP, syntactically needed to create an empty code block The assert statement, used in debugging to check for conditions that should apply The yield statement,"
+	},
+	{
+		"content_id": 106,
+		"user_id": 35,
+		"comment": "in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to tutorials and reference materials, such"
+	},
+	{
+		"content_id": 256,
+		"user_id": 72,
+		"comment": "backslash  as an escape character. String interpolation became available in Python 3.6 as formatted string literals. Triple-quoted (beginning and ending with three single or double quotes), which may span multiple lines and function like here documents in shells, Perl, and Ruby."
+	},
+	{
+		"content_id": 34,
+		"user_id": 19,
+		"comment": "native operations including length, comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses"
+	},
+	{
+		"content_id": 46,
+		"user_id": 40,
+		"comment": "relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped and reversed. Slice indexes may be omitted—for example, a returns a copy of the"
+	},
+	{
+		"content_id": 226,
+		"user_id": 19,
+		"comment": "is a shallow copy. In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if blocks"
+	},
+	{
+		"content_id": 456,
+		"user_id": 26,
+		"comment": "programming and structured programming are fully supported, and many of their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are"
+	},
+	{
+		"content_id": 315,
+		"user_id": 96,
+		"comment": "Some other languages use indentation this way; but in most, indentation has no semantic meaning. The recommended indent size is four spaces. Statements and control flow Python's statements include: The assignment statement, using"
+	},
+	{
+		"content_id": 27,
+		"user_id": 49,
+		"comment": "typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that it is not of a suitable type. Despite being dynamically"
+	},
+	{
+		"content_id": 18,
+		"user_id": 19,
+		"comment": "and control flow Python's statements include: The assignment statement, using a single equals sign = The if statement, which conditionally executes a block of code, along with else and elif (a contraction of else-if) The for statement, which iterates over an"
+	},
+	{
+		"content_id": 195,
+		"user_id": 17,
+		"comment": "also possible to cross-compile to other languages, but it either doesn't provide the full speed-up that might be expected, since Python is a"
+	},
+	{
+		"content_id": 446,
+		"user_id": 99,
+		"comment": "string literal with r. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare @-quoting in C#.) Python"
+	},
+	{
+		"content_id": 330,
+		"user_id": 35,
+		"comment": "many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal. Indentation Main article: Python syntax and semantics § Indentation Python uses whitespace"
+	},
+	{
+		"content_id": 167,
+		"user_id": 97,
+		"comment": "compiled, and possibly semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in"
+	},
+	{
+		"content_id": 321,
+		"user_id": 44,
+		"comment": "of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance"
+	},
+	{
+		"content_id": 284,
+		"user_id": 21,
+		"comment": "expressions vs. if blocks The eval() vs. exec() built-in functions (in Python 2, exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part"
+	},
+	{
+		"content_id": 324,
+		"user_id": 61,
+		"comment": "object on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on"
+	},
+	{
+		"content_id": 353,
+		"user_id": 83,
+		"comment": "sketch) in examples, instead of the often-used foo and bar. A common neologism in the Python community is pythonic, which has a wide"
+	},
+	{
+		"content_id": 219,
+		"user_id": 70,
+		"comment": "unpythonic. Syntax and semantics Main article: Python syntax and semantics Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike"
+	},
+	{
+		"content_id": 363,
+		"user_id": 84,
+		"comment": "or by using a just-in-time compiler like PyPy. It is also possible to cross-compile to other languages, but it either doesn't provide the full speed-up that might be expected, since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics are"
+	},
+	{
+		"content_id": 66,
+		"user_id": 71,
+		"comment": "out of the generator. From Python 2.5 on, it is possible to pass data back into a generator function; and from version 3.3, it can be passed through multiple stack levels. Expressions Python's expressions include: The +, -, and * operators for"
+	},
+	{
+		"content_id": 162,
+		"user_id": 37,
+		"comment": "whose functions or variables can be used in the current program The assignment statement (=) binds a name as a reference to a separate, dynamically allocated object."
+	},
+	{
+		"content_id": 53,
+		"user_id": 33,
+		"comment": "fully supported, and many of their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are supported via extensions, including design by contract and logic programming. Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for"
+	},
+	{
+		"content_id": 480,
+		"user_id": 29,
+		"comment": "on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has"
+	},
+	{
+		"content_id": 221,
+		"user_id": 38,
+		"comment": "small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach. Python claims to strive for a simpler, less-cluttered syntax and grammar while giving developers a choice in their coding methodology."
+	},
+	{
+		"content_id": 262,
+		"user_id": 64,
+		"comment": "slicing expressions in lists, denoted as a, astop] or astop:step]. Indexes are zero-based, and negative indexes are relative to the end. Slices take elements from the start index up"
+	},
+	{
+		"content_id": 69,
+		"user_id": 30,
+		"comment": "subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder without a fixed data type; however, it always refers to some object with a type. This is called dynamic typing—in contrast"
+	},
+	{
+		"content_id": 331,
+		"user_id": 41,
+		"comment": "integer division) // and floating-point/division. Python uses the ** operator for exponentiation. Python uses the + operator for string concatenation. Python uses the * operator for"
+	},
+	{
+		"content_id": 237,
+		"user_id": 36,
+		"comment": "when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator % that functions"
+	},
+	{
+		"content_id": 332,
+		"user_id": 67,
+		"comment": "functions are implemented using lambda expressions; however, there may be only one expression in each body. Conditional expressions are written as x if c else y (different in order of operands from the c ? x"
+	},
+	{
+		"content_id": 466,
+		"user_id": 17,
+		"comment": "a list comprehension, and a more general expression named a generator expression. Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body. Conditional expressions are written as"
+	},
+	{
+		"content_id": 134,
+		"user_id": 16,
+		"comment": "Python has a string format operator % that functions analogously to printf format strings in C—e.g. spam=%s eggs=%d % (blah, 2) evaluates to spam=blah eggs=2."
+	},
+	{
+		"content_id": 420,
+		"user_id": 11,
+		"comment": "generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally out of the generator. From Python 2.5 on, it is"
+	},
+	{
+		"content_id": 267,
+		"user_id": 93,
+		"comment": "Python 2.5 on, it is possible to pass data back into a generator function; and from version 3.3, it can be passed"
+	},
+	{
+		"content_id": 366,
+		"user_id": 60,
+		"comment": "for matrix multiplication. The syntax :=, called the walrus operator, was introduced in Python 3.8. It assigns values to variables as part of a larger expression. In Python, == compares by value. Python's is operator may be used to"
+	},
+	{
+		"content_id": 262,
+		"user_id": 22,
+		"comment": "to some object with a type. This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it"
+	},
+	{
+		"content_id": 378,
+		"user_id": 10,
+		"comment": "dictionaries, sets, and generator expressions. The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML."
+	},
+	{
+		"content_id": 188,
+		"user_id": 46,
+		"comment": "assignment statement, using a single equals sign = The if statement, which conditionally executes a block of code, along with else and elif (a contraction of else-if) The for statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block"
+	},
+	{
+		"content_id": 485,
+		"user_id": 98,
+		"comment": "as formatted string literals. Triple-quoted (beginning and ending with three single or double quotes), which may span multiple lines and function like"
+	},
+	{
+		"content_id": 436,
+		"user_id": 90,
+		"comment": "body. Conditional expressions are written as x if c else y (different in order of operands from the c ? x : y operator common to many other languages). Python makes a distinction between"
+	},
+	{
+		"content_id": 234,
+		"user_id": 52,
+		"comment": "keys of dictionaries, provided all of the tuple's elements are immutable. The + operator can be used to concatenate two tuples, which does not directly modify their contents, but"
+	},
+	{
+		"content_id": 488,
+		"user_id": 85,
+		"comment": "expects an iterable object on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when"
+	},
+	{
+		"content_id": 274,
+		"user_id": 84,
+		"comment": "any time to any object. In Python, a variable name is a generic reference holder without a fixed data type; however, it always refers to some object with a type. This is called dynamic typing—in"
+	},
+	{
+		"content_id": 46,
+		"user_id": 48,
+		"comment": "an identical manner to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the right-hand"
+	},
+	{
+		"content_id": 478,
+		"user_id": 60,
+		"comment": "code block within a context manager (for example, acquiring a lock before it is run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest"
+	},
+	{
+		"content_id": 91,
+		"user_id": 45,
+		"comment": "== compares by value. Python's is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and, or, and not as Boolean"
+	},
+	{
+		"content_id": 116,
+		"user_id": 79,
+		"comment": "coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally out of the generator. From Python 2.5 on, it is possible to pass data"
+	},
+	{
+		"content_id": 368,
+		"user_id": 64,
+		"comment": "tools borrowed from Haskell and Standard ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as:"
+	},
+	{
+		"content_id": 292,
+		"user_id": 30,
+		"comment": "in an identical manner to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the right-hand side of the equal sign that produces"
+	},
+	{
+		"content_id": 107,
+		"user_id": 31,
+		"comment": "structure accurately represents its semantic structure. This feature is sometimes termed the off-side rule. Some other languages use indentation this way; but in most, indentation has no"
+	},
+	{
+		"content_id": 391,
+		"user_id": 80,
+		"comment": "philosophy and emphasis on readability. Code that is difficult to understand or reads like a rough transcription from another programming language is called unpythonic. Syntax and semantics Main article: Python syntax"
+	},
+	{
+		"content_id": 295,
+		"user_id": 72,
+		"comment": "comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses duck typing and has typed objects but untyped"
+	},
+	{
+		"content_id": 183,
+		"user_id": 99,
+		"comment": "not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them. Python allows programmers to define their own types using classes, most often"
+	},
+	{
+		"content_id": 124,
+		"user_id": 14,
+		"comment": "Readability counts. However, Python features regularly violate these principles and received criticism for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than a"
+	},
+	{
+		"content_id": 265,
+		"user_id": 11,
+		"comment": "is run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which"
+	},
+	{
+		"content_id": 47,
+		"user_id": 45,
+		"comment": "behavior of division differs. There are two types of divisions in Python: floor division (or integer division) // and floating-point/division. Python uses the ** operator for exponentiation. Python uses"
+	},
+	{
+		"content_id": 188,
+		"user_id": 6,
+		"comment": "writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator % that"
+	},
+	{
+		"content_id": 49,
+		"user_id": 61,
+		"comment": "brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than"
+	},
+	{
+		"content_id": 47,
+		"user_id": 50,
+		"comment": "Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects)."
+	},
+	{
+		"content_id": 495,
+		"user_id": 22,
+		"comment": "any object. In Python, a variable name is a generic reference holder without a fixed data type; however, it always refers to some object with a type. This is called dynamic typing—in contrast to statically-typed"
+	},
+	{
+		"content_id": 362,
+		"user_id": 97,
+		"comment": "possibly semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to tutorials and reference materials, such as the use"
+	},
+	{
+		"content_id": 80,
+		"user_id": 55,
+		"comment": "printf format strings in C—e.g. spam=%s eggs=%d % (blah, 2) evaluates to spam=blah eggs=2. In Python 2.6+ and 3+, this was supplemented by the format() method of the str class, e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6 added f-strings: spam ="
+	},
+	{
+		"content_id": 410,
+		"user_id": 94,
+		"comment": "English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer"
+	},
+	{
+		"content_id": 14,
+		"user_id": 5,
+		"comment": "to the corresponding expression on the left. Python has a string format operator % that functions analogously to printf format strings"
+	},
+	{
+		"content_id": 340,
+		"user_id": 74,
+		"comment": "(to a variable, writable property, etc.) are associated in an identical manner to that forming tuple literals—and, as a whole, are put on the"
+	},
+	{
+		"content_id": 454,
+		"user_id": 12,
+		"comment": "(=) binds a name as a reference to a separate, dynamically allocated object. Variables may subsequently be rebound at any time to any object. In Python,"
+	},
+	{
+		"content_id": 212,
+		"user_id": 13,
+		"comment": "standard type hierarchy in Python 3 Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on"
+	},
+	{
+		"content_id": 486,
+		"user_id": 72,
+		"comment": "combination of reference counting and a cycle-detecting garbage collector for memory management. It uses dynamic name resolution (late binding), which binds method and variable names during program execution. Its design offers"
+	},
+	{
+		"content_id": 375,
+		"user_id": 45,
+		"comment": "capturing each element to a local variable for use by the attached block The while statement, which executes a block of code as long as its"
+	},
+	{
+		"content_id": 39,
+		"user_id": 76,
+		"comment": "type. This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a value of a certain type. Python does not support tail call optimization or first-class continuations,"
+	},
+	{
+		"content_id": 12,
+		"user_id": 24,
+		"comment": "Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them. Python allows programmers to define their"
+	},
+	{
+		"content_id": 234,
+		"user_id": 46,
+		"comment": "that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on"
+	},
+	{
+		"content_id": 445,
+		"user_id": 10,
+		"comment": "type annotations. These annotations are not enforced by the language, but may be used by external tools such as mypy to catch errors. Mypy also supports a"
+	},
+	{
+		"content_id": 323,
+		"user_id": 48,
+		"comment": "to a string) rather than silently attempting to make sense of them. Python allows programmers to define their own types using classes, most often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of"
+	},
+	{
+		"content_id": 69,
+		"user_id": 73,
+		"comment": "defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring a lock before it is run, then releasing the lock; or opening and closing a file),"
+	},
+	{
+		"content_id": 416,
+		"user_id": 76,
+		"comment": "object-oriented programming The def statement, which defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring a lock before it is run, then releasing the lock; or opening and closing a file), allowing"
+	},
+	{
+		"content_id": 270,
+		"user_id": 32,
+		"comment": "functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if blocks The eval() vs. exec() built-in functions (in Python 2, exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions"
+	},
+	{
+		"content_id": 159,
+		"user_id": 99,
+		"comment": "producing an error if the variable is referred to before it is redefined The pass statement, serving as a NOP, syntactically needed to create"
+	},
+	{
+		"content_id": 387,
+		"user_id": 95,
+		"comment": "<= c. Python uses and, or, and not as Boolean operators. Python has a type of expression named a list comprehension, and a more general expression named a generator expression."
+	},
+	{
+		"content_id": 141,
+		"user_id": 63,
+		"comment": "such as the use of the terms spam and eggs (a reference to a Monty Python sketch) in examples, instead of the often-used foo and bar. A common neologism in the Python"
+	},
+	{
+		"content_id": 61,
+		"user_id": 98,
+		"comment": "If strings contain numbers, they are added as strings rather than integers, e.g. 2 + 2 returns 22. Python has various string literals: Delimited by single or double quotes;"
+	},
+	{
+		"content_id": 30,
+		"user_id": 17,
+		"comment": "principles and received criticism for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than a rule. The addition of some new"
+	},
+	{
+		"content_id": 212,
+		"user_id": 45,
+		"comment": "there should be one—and preferably only one—obvious way to do it. philosophy. In practice, however, Python provides many ways to achieve the same task. There are, for example, at least three ways to format a string literal, with no certainty as to which one a"
+	},
+	{
+		"content_id": 414,
+		"user_id": 14,
+		"comment": "to statically-typed languages, where each variable may contain only a value of a certain type. Python does not support tail call optimization or"
+	},
+	{
+		"content_id": 467,
+		"user_id": 84,
+		"comment": "Zen of Python is a guideline rather than a rule. The addition of some new features had been so controversial that Guido van Rossum resigned as Benevolent Dictator for Life following vitriol over the addition of the assignment expression"
+	},
+	{
+		"content_id": 440,
+		"user_id": 7,
+		"comment": "some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores),"
+	},
+	{
+		"content_id": 112,
+		"user_id": 72,
+		"comment": "in a finally block is always run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise"
+	},
+	{
+		"content_id": 336,
+		"user_id": 50,
+		"comment": "call optimization or first-class continuations, and, according to Van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy iterators; data was passed"
+	},
+	{
+		"content_id": 35,
+		"user_id": 45,
+		"comment": "Python uses the * operator for duplicating a string a specified number of times. The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication. The syntax :=, called"
+	},
+	{
+		"content_id": 6,
+		"user_id": 24,
+		"comment": "variables as part of a larger expression. In Python, == compares by value. Python's is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b"
+	},
+	{
+		"content_id": 129,
+		"user_id": 95,
+		"comment": "allows exceptions raised in its attached code block to be caught and handled by except clauses (or new syntax except* in Python 3.11 for exception groups); it also ensures that clean-up"
+	},
+	{
+		"content_id": 439,
+		"user_id": 68,
+		"comment": "does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal. Indentation Main article:"
+	},
+	{
+		"content_id": 155,
+		"user_id": 40,
+		"comment": "to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal. Indentation"
+	},
+	{
+		"content_id": 80,
+		"user_id": 94,
+		"comment": "are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection. Before version 3.0, Python had two"
+	},
+	{
+		"content_id": 31,
+		"user_id": 26,
+		"comment": "other languages, but the behavior of division differs. There are two types of divisions in Python: floor division (or integer division) // and floating-point/division. Python uses the ** operator for exponentiation. Python uses the + operator for string concatenation. Python uses the * operator for duplicating a"
+	},
+	{
+		"content_id": 150,
+		"user_id": 42,
+		"comment": "concatenated by adding them (with the same operator as for adding integers and floats), e.g. spam + eggs returns spameggs. If strings"
+	},
+	{
+		"content_id": 86,
+		"user_id": 64,
+		"comment": "of expression named a list comprehension, and a more general expression named a generator expression. Anonymous functions are implemented using lambda expressions; however, there"
+	},
+	{
+		"content_id": 309,
+		"user_id": 15,
+		"comment": "has no semantic meaning. The recommended indent size is four spaces. Statements and control flow Python's statements include: The assignment statement, using a single equals sign = The if"
+	},
+	{
+		"content_id": 225,
+		"user_id": 77,
+		"comment": "their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are supported via extensions, including design by contract and logic programming. Python uses dynamic typing and a combination of reference counting and"
+	},
+	{
+		"content_id": 500,
+		"user_id": 25,
+		"comment": "certain statements; a decrease in indentation signifies the end of the current block. Thus, the program's visual structure accurately represents its semantic structure. This feature is sometimes termed the"
+	},
+	{
+		"content_id": 177,
+		"user_id": 93,
+		"comment": "clean-up code in a finally block is always run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise a caught exception The class statement, which executes a block of code and attaches"
+	},
+	{
+		"content_id": 223,
+		"user_id": 36,
+		"comment": "object, capturing each element to a local variable for use by the attached block The while statement, which executes a block of code as long as its condition is true The try statement, which allows exceptions raised in its attached code block to be caught and"
+	},
+	{
+		"content_id": 115,
+		"user_id": 19,
+		"comment": "since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and"
+	},
+	{
+		"content_id": 499,
+		"user_id": 34,
+		"comment": "Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of their features support"
+	},
+	{
+		"content_id": 419,
+		"user_id": 90,
+		"comment": "version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current Python versions only support the semantics of"
+	},
+	{
+		"content_id": 429,
+		"user_id": 77,
+		"comment": "then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement, which"
+	},
+	{
+		"content_id": 275,
+		"user_id": 79,
+		"comment": "expected, since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and"
+	},
+	{
+		"content_id": 428,
+		"user_id": 15,
+		"comment": "This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a value of a certain type. Python does not support tail"
+	},
+	{
+		"content_id": 66,
+		"user_id": 60,
+		"comment": "or reads like a rough transcription from another programming language is called unpythonic. Syntax and semantics Main article: Python syntax and semantics Python is meant to be an easily readable language. Its formatting"
+	},
+	{
+		"content_id": 270,
+		"user_id": 45,
+		"comment": "as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and"
+	},
+	{
+		"content_id": 236,
+		"user_id": 42,
+		"comment": "spam + eggs returns spameggs. If strings contain numbers, they are added as strings rather than integers, e.g. 2 + 2 returns 22. Python has various string literals: Delimited by single or double quotes; unlike in Unix shells, Perl, and Perl-influenced languages, single and double quotes work"
+	},
+	{
+		"content_id": 176,
+		"user_id": 15,
+		"comment": "assignment expression operator in Python 3.8. Nevertheless, rather than building all of its functionality into its core, Python was designed to be highly extensible via modules. This compact modularity has made it particularly popular"
+	},
+	{
+		"content_id": 170,
+		"user_id": 73,
+		"comment": "the terms spam and eggs (a reference to a Monty Python sketch) in examples, instead of the often-used foo and bar. A common neologism in the Python community is pythonic, which has"
+	},
+	{
+		"content_id": 60,
+		"user_id": 13,
+		"comment": "sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare @-quoting in C#.) Python has array index and array slicing expressions in lists, denoted as a, astop] or astop:step]."
+	},
+	{
+		"content_id": 386,
+		"user_id": 56,
+		"comment": "that clean-up code in a finally block is always run regardless of how the block exits The raise statement, used to raise a"
+	},
+	{
+		"content_id": 13,
+		"user_id": 63,
+		"comment": "the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator"
+	},
+	{
+		"content_id": 395,
+		"user_id": 56,
+		"comment": "Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Readability counts. However, Python features regularly violate these principles and received"
+	},
+	{
+		"content_id": 215,
+		"user_id": 43,
+		"comment": "may contain only a value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it never will. However, better support for coroutine-like functionality is"
+	},
+	{
+		"content_id": 184,
+		"user_id": 13,
+		"comment": "idioms well, be natural or show fluency in the language, or conform with Python's minimalist philosophy and emphasis on readability. Code that is difficult to understand or reads like a rough transcription from"
+	},
+	{
+		"content_id": 458,
+		"user_id": 39,
+		"comment": "concatenation. Python uses the * operator for duplicating a string a specified number of times. The @ infix operator. It is intended to be"
+	},
+	{
+		"content_id": 60,
+		"user_id": 92,
+		"comment": "as the keys of dictionaries (dictionary keys must be immutable in Python). Tuples, written as (1, 2, 3), are immutable and thus can be used as keys"
+	},
+	{
+		"content_id": 240,
+		"user_id": 31,
+		"comment": "programmer should use. Alex Martelli, a Fellow at the Python Software Foundation and Python book author, wrote: To describe something as 'clever' is not considered a compliment in the Python culture. Python's developers usually strive"
+	},
+	{
+		"content_id": 25,
+		"user_id": 86,
+		"comment": "of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them. Python allows programmers to define their own types using classes, most often used for"
+	},
+	{
+		"content_id": 306,
+		"user_id": 57,
+		"comment": "allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement, which removes a variable—deleting"
+	},
+	{
+		"content_id": 295,
+		"user_id": 76,
+		"comment": "may be chained—for example, a <= b <= c. Python uses and, or, and not as Boolean operators. Python has a type of expression named a list comprehension, and a more general expression named a generator"
+	},
+	{
+		"content_id": 112,
+		"user_id": 37,
+		"comment": "eval() vs. exec() built-in functions (in Python 2, exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot"
+	},
+	{
+		"content_id": 232,
+		"user_id": 50,
+		"comment": "file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement,"
+	},
+	{
+		"content_id": 404,
+		"user_id": 43,
+		"comment": "wrote: To describe something as 'clever' is not considered a compliment in the Python culture. Python's developers usually strive to avoid premature optimization and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity. Execution speed can be"
+	},
+	{
+		"content_id": 27,
+		"user_id": 81,
+		"comment": "support the semantics of the new style. Python supports optional type annotations. These annotations are not enforced by the language, but may be"
+	},
+	{
+		"content_id": 131,
+		"user_id": 87,
+		"comment": "it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal. Indentation Main article: Python syntax"
+	},
+	{
+		"content_id": 464,
+		"user_id": 55,
+		"comment": "use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to tutorials and reference materials,"
+	},
+	{
+		"content_id": 389,
+		"user_id": 15,
+		"comment": "To describe something as 'clever' is not considered a compliment in the Python culture. Python's developers usually strive to avoid premature optimization and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity. Execution speed"
+	},
+	{
+		"content_id": 151,
+		"user_id": 27,
+		"comment": "it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator % that functions analogously to printf format strings in C—e.g. spam=%s eggs=%d % (blah, 2) evaluates"
+	},
+	{
+		"content_id": 23,
+		"user_id": 20,
+		"comment": "not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1, 2,"
+	},
+	{
+		"content_id": 228,
+		"user_id": 7,
+		"comment": "manager (for example, acquiring a lock before it is run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop"
+	},
+	{
+		"content_id": 168,
+		"user_id": 95,
+		"comment": "ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Readability counts. However, Python features regularly violate these principles and received criticism for adding unnecessary"
+	},
+	{
+		"content_id": 492,
+		"user_id": 30,
+		"comment": "operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b"
+	},
+	{
+		"content_id": 33,
+		"user_id": 36,
+		"comment": "values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator %"
+	},
+	{
+		"content_id": 210,
+		"user_id": 93,
+		"comment": "at the cost of clarity. Execution speed can be improved by moving speed-critical functions to extension modules written in languages such as C, or by using a just-in-time compiler like PyPy. It is also possible to cross-compile to other"
+	},
+	{
+		"content_id": 428,
+		"user_id": 11,
+		"comment": "Methods on objects are functions attached to the object's class; the syntax instance.method(argument) is, for normal methods and functions, syntactic sugar for Class.method(instance, argument). Python methods have an explicit self parameter to access instance data, in contrast to the implicit self (or this) in some"
+	},
+	{
+		"content_id": 128,
+		"user_id": 35,
+		"comment": "of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator % that"
+	},
+	{
+		"content_id": 350,
+		"user_id": 75,
+		"comment": "a string a specified number of times. The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication. The syntax :=, called the walrus operator, was introduced in Python 3.8. It assigns values to variables as part of a larger expression. In Python,"
+	},
+	{
+		"content_id": 33,
+		"user_id": 37,
+		"comment": "as a NOP, syntactically needed to create an empty code block The assert statement, used in debugging to check for conditions that should apply The yield statement, which returns a value from a generator function (and also an operator); used"
+	},
+	{
+		"content_id": 492,
+		"user_id": 98,
+		"comment": "operator); used to implement coroutines The return statement, used to return a value from a function The import and from statements, used to import modules whose functions or variables can be used in the current program The assignment statement (=) binds a name as a reference to a separate,"
+	},
+	{
+		"content_id": 390,
+		"user_id": 9,
+		"comment": "are written as x if c else y (different in order of operands from the c ? x : y operator common to many other languages). Python makes a distinction between lists and tuples. Lists are written as 2, 3], are mutable, and"
+	},
+	{
+		"content_id": 356,
+		"user_id": 81,
+		"comment": "this way; but in most, indentation has no semantic meaning. The recommended indent size is four spaces. Statements and control flow Python's statements include: The assignment statement, using a single equals sign ="
+	},
+	{
+		"content_id": 156,
+		"user_id": 96,
+		"comment": "all being expressions, cannot contain statements. A particular case is that an assignment statement such as a = 1 cannot form part of the conditional expression of a conditional statement. Methods"
+	},
+	{
+		"content_id": 102,
+		"user_id": 25,
+		"comment": "coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally out of the generator. From Python 2.5 on, it is possible to"
+	},
+	{
+		"content_id": 430,
+		"user_id": 36,
+		"comment": ":=, called the walrus operator, was introduced in Python 3.8. It assigns values to variables as part of a larger expression. In Python, == compares by value. Python's is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example,"
+	},
+	{
+		"content_id": 74,
+		"user_id": 13,
+		"comment": "it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach. Python claims to strive for a simpler,"
+	},
+	{
+		"content_id": 210,
+		"user_id": 92,
+		"comment": "is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case is that an assignment statement such as a = 1 cannot form part of"
+	},
+	{
+		"content_id": 308,
+		"user_id": 33,
+		"comment": "a block of code and attaches its local namespace to a class, for use in object-oriented programming The def statement, which defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring a lock before it is run, then"
+	},
+	{
+		"content_id": 181,
+		"user_id": 7,
+		"comment": "variable names during program execution. Its design offers some support for functional programming in the Lisp tradition. It has filter,mapandreduce functions; list comprehensions, dictionaries, sets, and generator expressions. The standard library has two modules (itertools and functools) that"
+	},
+	{
+		"content_id": 426,
+		"user_id": 54,
+		"comment": "and functions, syntactic sugar for Class.method(instance, argument). Python methods have an explicit self parameter to access instance data, in contrast to the implicit self (or this) in some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often"
+	},
+	{
+		"content_id": 388,
+		"user_id": 50,
+		"comment": "language with a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach. Python claims to strive for a simpler, less-cluttered syntax and grammar while giving developers a choice in their coding methodology. In contrast to Perl's there is more"
+	},
+	{
+		"content_id": 324,
+		"user_id": 29,
+		"comment": "The assert statement, used in debugging to check for conditions that should apply The yield statement, which returns a value from a generator function"
+	},
+	{
+		"content_id": 27,
+		"user_id": 36,
+		"comment": "classes (both using the same syntax): old-style and new-style; current Python versions only support the semantics of the new style. Python supports optional type annotations. These annotations are not enforced by the language, but may be used by external tools such as mypy to catch errors. Mypy also supports"
+	},
+	{
+		"content_id": 369,
+		"user_id": 21,
+		"comment": "Python book author, wrote: To describe something as 'clever' is not considered a compliment in the Python culture. Python's developers usually strive to avoid premature"
+	},
+	{
+		"content_id": 215,
+		"user_id": 11,
+		"comment": "the Python culture. Python's developers usually strive to avoid premature optimization and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity. Execution speed can be improved by moving speed-critical functions to extension"
+	},
+	{
+		"content_id": 267,
+		"user_id": 92,
+		"comment": "re-raise a caught exception The class statement, which executes a block of code and attaches its local namespace to a class, for use in object-oriented programming The def statement,"
+	},
+	{
+		"content_id": 362,
+		"user_id": 70,
+		"comment": "according to Van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy"
+	},
+	{
+		"content_id": 110,
+		"user_id": 63,
+		"comment": "for exception groups); it also ensures that clean-up code in a finally block is always run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise a caught"
+	},
+	{
+		"content_id": 386,
+		"user_id": 50,
+		"comment": "Python features regularly violate these principles and received criticism for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than a rule. The addition of some new features had been so controversial that Guido van Rossum resigned as Benevolent Dictator"
+	},
+	{
+		"content_id": 225,
+		"user_id": 29,
+		"comment": "3.11 for exception groups); it also ensures that clean-up code in a finally block is always run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise a caught exception"
+	},
+	{
+		"content_id": 360,
+		"user_id": 47,
+		"comment": "example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection. Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current Python versions only support the"
+	},
+	{
+		"content_id": 55,
+		"user_id": 19,
+		"comment": "for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than a"
+	},
+	{
+		"content_id": 193,
+		"user_id": 92,
+		"comment": "y (different in order of operands from the c ? x : y operator common to many other languages). Python makes a distinction between lists and tuples. Lists are written as 2, 3], are mutable, and cannot be"
+	},
+	{
+		"content_id": 116,
+		"user_id": 47,
+		"comment": "In practice, however, Python provides many ways to achieve the same task. There are, for example, at least three ways to format"
+	},
+	{
+		"content_id": 128,
+		"user_id": 99,
+		"comment": "is true The try statement, which allows exceptions raised in its attached code block to be caught and handled by except clauses (or new syntax except* in Python 3.11 for exception"
+	},
+	{
+		"content_id": 301,
+		"user_id": 95,
+		"comment": "and continues with the next The del statement, which removes a variable—deleting the reference from the name to the value, and producing an error if the variable is referred to before it is redefined The"
+	},
+	{
+		"content_id": 364,
+		"user_id": 98,
+		"comment": "their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses duck typing and"
+	},
+	{
+		"content_id": 137,
+		"user_id": 59,
+		"comment": "values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator % that"
+	},
+	{
+		"content_id": 242,
+		"user_id": 25,
+		"comment": "Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of their features support"
+	},
+	{
+		"content_id": 239,
+		"user_id": 64,
+		"comment": "step or stride, allows elements to be skipped and reversed. Slice indexes may be omitted—for example, a returns a copy of the entire list. Each element of a slice is a shallow copy. In Python, a"
+	},
+	{
+		"content_id": 278,
+		"user_id": 5,
+		"comment": "became available in Python 3.6 as formatted string literals. Triple-quoted (beginning and ending with three single or double quotes), which may"
+	},
+	{
+		"content_id": 444,
+		"user_id": 8,
+		"comment": "in their coding methodology. In contrast to Perl's there is more than one way to do it motto, Python embraces a there should be one—and preferably only one—obvious way to do it. philosophy. In practice, however, Python provides"
+	},
+	{
+		"content_id": 496,
+		"user_id": 73,
+		"comment": "they are handled by native operations including length, comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses duck typing and has typed objects but untyped variable names. Type constraints are not"
+	},
+	{
+		"content_id": 39,
+		"user_id": 18,
+		"comment": "a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if blocks"
+	},
+	{
+		"content_id": 289,
+		"user_id": 99,
+		"comment": "readability. Code that is difficult to understand or reads like a rough transcription from another programming language is called unpythonic. Syntax"
+	},
+	{
+		"content_id": 383,
+		"user_id": 16,
+		"comment": "are zero-based, and negative indexes are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The"
+	},
+	{
+		"content_id": 441,
+		"user_id": 88,
+		"comment": "are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare @-quoting in C#.) Python has array index and array slicing expressions in lists, denoted as a, astop]"
+	},
+	{
+		"content_id": 129,
+		"user_id": 26,
+		"comment": "a large standard library and easily extensible interpreter stemmed from his frustrations with ABC, which espoused the opposite approach. Python claims to strive for a simpler, less-cluttered syntax and grammar while giving developers"
+	},
+	{
+		"content_id": 387,
+		"user_id": 75,
+		"comment": "used to implement coroutines The return statement, used to return a value from a function The import and from statements, used to"
+	},
+	{
+		"content_id": 386,
+		"user_id": 91,
+		"comment": "Python syntax and semantics § Indentation Python uses whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block. Thus, the program's visual structure accurately represents its"
+	},
+	{
+		"content_id": 46,
+		"user_id": 54,
+		"comment": "clarity. Execution speed can be improved by moving speed-critical functions to extension modules written in languages such as C, or by using a just-in-time compiler like PyPy. It is also possible to cross-compile to other languages, but it either doesn't provide"
+	},
+	{
+		"content_id": 296,
+		"user_id": 91,
+		"comment": "Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly. Explicit is"
+	},
+	{
+		"content_id": 63,
+		"user_id": 97,
+		"comment": "uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail,"
+	},
+	{
+		"content_id": 427,
+		"user_id": 43,
+		"comment": "but in most, indentation has no semantic meaning. The recommended indent size is four spaces. Statements and control flow Python's statements include: The assignment statement, using a single equals sign = The if statement, which conditionally executes a block of code, along with"
+	},
+	{
+		"content_id": 61,
+		"user_id": 53,
+		"comment": "delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block. Thus, the program's"
+	},
+	{
+		"content_id": 145,
+		"user_id": 61,
+		"comment": "spam=%s eggs=%d % (blah, 2) evaluates to spam=blah eggs=2. In Python 2.6+ and 3+, this was supplemented by the format() method of the str class, e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6"
+	},
+	{
+		"content_id": 487,
+		"user_id": 98,
+		"comment": "This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible"
+	},
+	{
+		"content_id": 344,
+		"user_id": 65,
+		"comment": "always refers to some object with a type. This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it never will. However,"
+	},
+	{
+		"content_id": 333,
+		"user_id": 29,
+		"comment": "many of their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are supported via extensions, including"
+	},
+	{
+		"content_id": 224,
+		"user_id": 26,
+		"comment": "by native operations including length, comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail,"
+	},
+	{
+		"content_id": 181,
+		"user_id": 34,
+		"comment": "programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection. Before version 3.0, Python had two kinds of classes (both using"
+	},
+	{
+		"content_id": 146,
+		"user_id": 34,
+		"comment": "particular case is that an assignment statement such as a = 1 cannot form part of the conditional expression of a conditional statement. Methods Methods on objects are functions attached to the object's class; the"
+	},
+	{
+		"content_id": 449,
+		"user_id": 95,
+		"comment": "statement. Methods Methods on objects are functions attached to the object's class; the syntax instance.method(argument) is, for normal methods and functions, syntactic sugar for Class.method(instance, argument). Python methods have an explicit self parameter to access instance"
+	},
+	{
+		"content_id": 248,
+		"user_id": 85,
+		"comment": "style. Pythonic code may use Python idioms well, be natural or show fluency in the language, or conform with Python's minimalist philosophy and emphasis on readability. Code that is"
+	},
+	{
+		"content_id": 330,
+		"user_id": 90,
+		"comment": "the entire list. Each element of a slice is a shallow copy. In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional"
+	},
+	{
+		"content_id": 149,
+		"user_id": 95,
+		"comment": "but in most, indentation has no semantic meaning. The recommended indent size is four spaces. Statements and control flow Python's statements include: The assignment statement, using a single equals sign = The if statement, which conditionally executes a block of code, along with else and elif (a contraction"
+	},
+	{
+		"content_id": 86,
+		"user_id": 62,
+		"comment": "was introduced in Python 3.8. It assigns values to variables as part of a larger expression. In Python, == compares by value."
+	},
+	{
+		"content_id": 326,
+		"user_id": 95,
+		"comment": "generator expression. Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body. Conditional expressions are written as x if c else y (different in order of operands from the"
+	},
+	{
+		"content_id": 266,
+		"user_id": 44,
+		"comment": "summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly. Explicit is better than implicit."
+	},
+	{
+		"content_id": 232,
+		"user_id": 75,
+		"comment": "other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal. Indentation Main article: Python syntax and semantics §"
+	},
+	{
+		"content_id": 392,
+		"user_id": 55,
+		"comment": "continuations, and, according to Van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally out"
+	},
+	{
+		"content_id": 374,
+		"user_id": 89,
+		"comment": "t—thereby effectively modifying the contents of t while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts. Python features sequence unpacking where multiple expressions, each evaluating to anything that can be assigned (to a variable, writable property, etc.) are"
+	},
+	{
+		"content_id": 200,
+		"user_id": 31,
+		"comment": "statement, which allows exceptions raised in its attached code block to be caught and handled by except clauses (or new syntax except* in Python 3.11 for exception groups); it also ensures that clean-up"
+	},
+	{
+		"content_id": 118,
+		"user_id": 60,
+		"comment": "related to program style. Pythonic code may use Python idioms well, be natural or show fluency in the language, or conform with Python's minimalist philosophy and emphasis on readability. Code that is difficult to understand or reads like a rough transcription"
+	},
+	{
+		"content_id": 452,
+		"user_id": 34,
+		"comment": "expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case is that an assignment statement such as a = 1 cannot form part of the conditional expression of a"
+	},
+	{
+		"content_id": 341,
+		"user_id": 83,
+		"comment": "which may span multiple lines and function like here documents in shells, Perl, and Ruby. Raw string varieties, denoted by prefixing the string literal with r. Escape sequences are"
+	},
+	{
+		"content_id": 342,
+		"user_id": 45,
+		"comment": "It is also possible to cross-compile to other languages, but it either doesn't provide the full speed-up that might be expected, since Python is a very dynamic language, or a restricted subset of Python is compiled,"
+	},
+	{
+		"content_id": 232,
+		"user_id": 54,
+		"comment": "also possible to cross-compile to other languages, but it either doesn't provide the full speed-up that might be expected, since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics are slightly"
+	},
+	{
+		"content_id": 182,
+		"user_id": 93,
+		"comment": "always run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise a caught exception The class statement, which executes a block of code and attaches its local namespace to a class, for use"
+	},
+	{
+		"content_id": 109,
+		"user_id": 32,
+		"comment": "has array index and array slicing expressions in lists, denoted as a, astop] or astop:step]. Indexes are zero-based, and negative indexes are relative to the end. Slices take elements from the start index up to,"
+	},
+	{
+		"content_id": 191,
+		"user_id": 87,
+		"comment": "general expression named a generator expression. Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body. Conditional expressions are written as x if c else y (different in order of operands from the c ? x"
+	},
+	{
+		"content_id": 433,
+		"user_id": 20,
+		"comment": "elements from the start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped and reversed. Slice"
+	},
+	{
+		"content_id": 458,
+		"user_id": 60,
+		"comment": "double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses duck typing and has typed objects but untyped"
+	},
+	{
+		"content_id": 56,
+		"user_id": 19,
+		"comment": "cannot form part of the conditional expression of a conditional statement. Methods Methods on objects are functions attached to the object's class; the syntax instance.method(argument) is, for"
+	},
+	{
+		"content_id": 104,
+		"user_id": 72,
+		"comment": "(comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and, or, and not as Boolean operators. Python has a type"
+	},
+	{
+		"content_id": 120,
+		"user_id": 23,
+		"comment": "adding them (with the same operator as for adding integers and floats), e.g. spam + eggs returns spameggs. If strings contain numbers, they are added as strings rather than integers, e.g. 2 + 2 returns"
+	},
+	{
+		"content_id": 225,
+		"user_id": 58,
+		"comment": "It is also possible to cross-compile to other languages, but it either doesn't provide the full speed-up that might be expected, since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics are slightly changed. Python's developers aim for it to be"
+	},
+	{
+		"content_id": 141,
+		"user_id": 100,
+		"comment": "better than implicit. Simple is better than complex. Complex is better than complicated. Readability counts. However, Python features regularly violate these principles and received criticism for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than a rule."
+	},
+	{
+		"content_id": 438,
+		"user_id": 82,
+		"comment": "concatenation. Python uses the * operator for duplicating a string a specified number of times. The @ infix operator. It is intended to be used by libraries such as NumPy for"
+	},
+	{
+		"content_id": 387,
+		"user_id": 77,
+		"comment": "lazy iterators; data was passed unidirectionally out of the generator. From Python 2.5 on, it is possible to pass data back into a generator function; and from version 3.3, it can"
+	},
+	{
+		"content_id": 479,
+		"user_id": 66,
+		"comment": "* operator for duplicating a string a specified number of times. The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication."
+	},
+	{
+		"content_id": 75,
+		"user_id": 75,
+		"comment": "variable is referred to before it is redefined The pass statement, serving as a NOP, syntactically needed to create an empty code block The assert statement,"
+	},
+	{
+		"content_id": 124,
+		"user_id": 17,
+		"comment": "use in object-oriented programming The def statement, which defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring a lock before it is run,"
+	},
+	{
+		"content_id": 332,
+		"user_id": 79,
+		"comment": "of operands from the c ? x : y operator common to many other languages). Python makes a distinction between lists and tuples. Lists are written as 2, 3], are mutable, and cannot be used as the"
+	},
+	{
+		"content_id": 219,
+		"user_id": 83,
+		"comment": "escape character. String interpolation became available in Python 3.6 as formatted string literals. Triple-quoted (beginning and ending with three single or double quotes), which may span multiple lines and function like"
+	},
+	{
+		"content_id": 462,
+		"user_id": 82,
+		"comment": "variables as part of a larger expression. In Python, == compares by value. Python's is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and, or, and not as Boolean operators. Python"
+	},
+	{
+		"content_id": 423,
+		"user_id": 16,
+		"comment": "double quotes work the same. Both use the backslash  as an escape character. String interpolation became available in Python 3.6 as formatted string literals. Triple-quoted (beginning"
+	},
+	{
+		"content_id": 64,
+		"user_id": 60,
+		"comment": "In Python 2.6+ and 3+, this was supplemented by the format() method of the str class, e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by adding them (with the same operator as for adding integers and"
+	},
+	{
+		"content_id": 372,
+		"user_id": 22,
+		"comment": "that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the"
+	},
+	{
+		"content_id": 452,
+		"user_id": 89,
+		"comment": "and array slicing expressions in lists, denoted as a, astop] or astop:step]. Indexes are zero-based, and negative indexes are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third slice parameter, called step or"
+	},
+	{
+		"content_id": 86,
+		"user_id": 21,
+		"comment": "had been so controversial that Guido van Rossum resigned as Benevolent Dictator for Life following vitriol over the addition of the assignment expression operator in Python 3.8. Nevertheless, rather than building all of its"
+	},
+	{
+		"content_id": 413,
+		"user_id": 41,
+		"comment": "immutable. The + operator can be used to concatenate two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1,"
+	},
+	{
+		"content_id": 114,
+		"user_id": 27,
+		"comment": "often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an"
+	},
+	{
+		"content_id": 442,
+		"user_id": 78,
+		"comment": "into its core, Python was designed to be highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a"
+	},
+	{
+		"content_id": 257,
+		"user_id": 73,
+		"comment": "possibly semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and in occasionally playful approaches to tutorials and reference materials, such as the"
+	},
+	{
+		"content_id": 396,
+		"user_id": 60,
+		"comment": "to format a string literal, with no certainty as to which one a programmer should use. Alex Martelli, a Fellow at the Python Software Foundation and Python book author, wrote: To describe something as 'clever' is not considered a compliment in the Python culture. Python's developers"
+	},
+	{
+		"content_id": 185,
+		"user_id": 96,
+		"comment": "are optional for tuples in unambiguous contexts. Python features sequence unpacking where multiple expressions, each evaluating to anything that can be assigned (to a variable,"
+	},
+	{
+		"content_id": 391,
+		"user_id": 12,
+		"comment": "run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue"
+	},
+	{
+		"content_id": 22,
+		"user_id": 51,
+		"comment": "violate these principles and received criticism for adding unnecessary language bloat. Responses to these criticisms are that the Zen of Python is a guideline rather than a rule. The addition of some new"
+	},
+	{
+		"content_id": 332,
+		"user_id": 48,
+		"comment": "provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses duck typing and"
+	},
+	{
+		"content_id": 156,
+		"user_id": 34,
+		"comment": "2, 3), are immutable and thus can be used as keys of dictionaries, provided all of the tuple's elements are immutable. The + operator can be used to concatenate two tuples, which does not directly modify their contents, but"
+	},
+	{
+		"content_id": 195,
+		"user_id": 39,
+		"comment": "through multiple stack levels. Expressions Python's expressions include: The +, -, and * operators for mathematical addition, subtraction, and multiplication are similar to other languages, but the"
+	},
+	{
+		"content_id": 484,
+		"user_id": 56,
+		"comment": "The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML. Its core philosophy is summarized in the Zen of Python"
+	},
+	{
+		"content_id": 320,
+		"user_id": 13,
+		"comment": "or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection. Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current Python versions only support the semantics of"
+	},
+	{
+		"content_id": 440,
+		"user_id": 5,
+		"comment": "syntax): old-style and new-style; current Python versions only support the semantics of the new style. Python supports optional type annotations. These annotations are"
+	},
+	{
+		"content_id": 167,
+		"user_id": 43,
+		"comment": "one—obvious way to do it. philosophy. In practice, however, Python provides many ways to achieve the same task. There are, for example, at least three ways to"
+	},
+	{
+		"content_id": 490,
+		"user_id": 46,
+		"comment": "statement, which executes a block of code as long as its condition is true The try statement, which allows exceptions raised in its attached code block to be caught and handled by except clauses (or new"
+	},
+	{
+		"content_id": 492,
+		"user_id": 44,
+		"comment": "implement functional tools borrowed from Haskell and Standard ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly. Explicit is better than implicit."
+	},
+	{
+		"content_id": 150,
+		"user_id": 96,
+		"comment": "leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if blocks The eval() vs. exec() built-in functions (in Python 2, exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so"
+	},
+	{
+		"content_id": 96,
+		"user_id": 30,
+		"comment": "least three ways to format a string literal, with no certainty as to which one a programmer should use. Alex Martelli, a Fellow at the Python Software Foundation and Python book author, wrote: To describe something as 'clever' is not considered a compliment in the Python culture."
+	},
+	{
+		"content_id": 42,
+		"user_id": 63,
+		"comment": "concatenate two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1,"
+	},
+	{
+		"content_id": 457,
+		"user_id": 28,
+		"comment": "a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement, which removes a variable—deleting the reference from the name"
+	},
+	{
+		"content_id": 30,
+		"user_id": 72,
+		"comment": "Life following vitriol over the addition of the assignment expression operator in Python 3.8. Nevertheless, rather than building all of its functionality"
+	},
+	{
+		"content_id": 153,
+		"user_id": 60,
+		"comment": "functions or variables can be used in the current program The assignment statement (=) binds a name as a reference to a separate, dynamically allocated object. Variables may subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder"
+	},
+	{
+		"content_id": 187,
+		"user_id": 81,
+		"comment": "and metaobjects). Many other paradigms are supported via extensions, including design by contract and logic programming. Python uses dynamic typing and a combination of reference counting and a cycle-detecting garbage collector for memory management. It uses"
+	},
+	{
+		"content_id": 99,
+		"user_id": 9,
+		"comment": "continuations, and, according to Van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators were lazy iterators; data was passed unidirectionally out of the generator."
+	},
+	{
+		"content_id": 8,
+		"user_id": 47,
+		"comment": "for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case"
+	},
+	{
+		"content_id": 357,
+		"user_id": 17,
+		"comment": "standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly."
+	},
+	{
+		"content_id": 252,
+		"user_id": 6,
+		"comment": "typing—in contrast to statically-typed languages, where each variable may contain only a value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it"
+	},
+	{
+		"content_id": 392,
+		"user_id": 55,
+		"comment": "is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics are slightly changed. Python's developers aim for it to be fun to use. This is reflected in its name—a tribute to the British comedy group Monty Python—and"
+	},
+	{
+		"content_id": 138,
+		"user_id": 55,
+		"comment": "types using classes, most often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming"
+	},
+	{
+		"content_id": 254,
+		"user_id": 27,
+		"comment": "block exits The raise statement, used to raise a specified exception or re-raise a caught exception The class statement, which executes a block of code and attaches its local namespace to"
+	},
+	{
+		"content_id": 206,
+		"user_id": 31,
+		"comment": "str class, e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by"
+	},
+	{
+		"content_id": 360,
+		"user_id": 32,
+		"comment": "create an empty code block The assert statement, used in debugging to check for conditions that should apply The yield statement, which returns a value from a generator function (and also an operator); used to implement coroutines The"
+	},
+	{
+		"content_id": 102,
+		"user_id": 79,
+		"comment": "not considered a compliment in the Python culture. Python's developers usually strive to avoid premature optimization and reject patches to non-critical parts of the CPython reference implementation that would offer"
+	},
+	{
+		"content_id": 353,
+		"user_id": 87,
+		"comment": "rather than a rule. The addition of some new features had been so controversial that Guido van Rossum resigned as Benevolent Dictator"
+	},
+	{
+		"content_id": 2,
+		"user_id": 70,
+		"comment": "they are handled by native operations including length, comparison, in arithmetic operations and type conversion. Typing The standard type hierarchy in Python 3 Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may"
+	},
+	{
+		"content_id": 488,
+		"user_id": 86,
+		"comment": "In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to"
+	},
+	{
+		"content_id": 22,
+		"user_id": 31,
+		"comment": "shells, Perl, and Ruby. Raw string varieties, denoted by prefixing the string literal with r. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare @-quoting in C#.) Python"
+	},
+	{
+		"content_id": 344,
+		"user_id": 99,
+		"comment": "The class statement, which executes a block of code and attaches its local namespace to a class, for use in object-oriented programming The def statement, which defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring"
+	},
+	{
+		"content_id": 416,
+		"user_id": 79,
+		"comment": "one expression in each body. Conditional expressions are written as x if c else y (different in order of operands from the c ? x : y operator common to many other languages). Python makes a distinction between lists and tuples. Lists"
+	},
+	{
+		"content_id": 98,
+		"user_id": 24,
+		"comment": "anything that can be assigned (to a variable, writable property, etc.) are associated in an identical manner to that forming tuple literals—and, as"
+	},
+	{
+		"content_id": 367,
+		"user_id": 72,
+		"comment": "two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly. Explicit is better than implicit. Simple"
+	},
+	{
+		"content_id": 379,
+		"user_id": 95,
+		"comment": "span multiple lines and function like here documents in shells, Perl, and Ruby. Raw string varieties, denoted by prefixing the string literal"
+	},
+	{
+		"content_id": 347,
+		"user_id": 46,
+		"comment": "and functions, syntactic sugar for Class.method(instance, argument). Python methods have an explicit self parameter to access instance data, in contrast to the implicit self (or this) in some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also"
+	},
+	{
+		"content_id": 350,
+		"user_id": 90,
+		"comment": "Python). Tuples, written as (1, 2, 3), are immutable and thus can be used as keys of dictionaries, provided all of the tuple's"
+	},
+	{
+		"content_id": 71,
+		"user_id": 24,
+		"comment": "operator can be used to concatenate two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first evaluates t + (4,"
+	},
+	{
+		"content_id": 493,
+		"user_id": 11,
+		"comment": "its local namespace to a class, for use in object-oriented programming The def statement, which defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring a lock before"
+	},
+	{
+		"content_id": 248,
+		"user_id": 52,
+		"comment": "Python culture. Python's developers usually strive to avoid premature optimization and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity."
+	},
+	{
+		"content_id": 71,
+		"user_id": 55,
+		"comment": "and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case is that an assignment statement such as a = 1 cannot form part of the conditional expression of a conditional statement. Methods Methods on objects are functions attached to the object's"
+	},
+	{
+		"content_id": 346,
+		"user_id": 10,
+		"comment": "metaclass type (itself an instance of itself), allowing metaprogramming and reflection. Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current Python versions only support the semantics of the new style. Python supports optional type annotations. These annotations are not enforced by"
+	},
+	{
+		"content_id": 163,
+		"user_id": 97,
+		"comment": "the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection. Before version 3.0, Python had"
+	},
+	{
+		"content_id": 203,
+		"user_id": 21,
+		"comment": "caught and handled by except clauses (or new syntax except* in Python 3.11 for exception groups); it also ensures that clean-up code in a finally block is always run regardless of how the block exits The raise statement, used to raise a specified exception or re-raise a"
+	},
+	{
+		"content_id": 436,
+		"user_id": 56,
+		"comment": "variable names during program execution. Its design offers some support for functional programming in the Lisp tradition. It has filter,mapandreduce functions; list comprehensions, dictionaries, sets, and generator expressions. The standard"
+	},
+	{
+		"content_id": 488,
+		"user_id": 88,
+		"comment": "a decrease in indentation signifies the end of the current block. Thus, the program's visual structure accurately represents its semantic structure. This feature is sometimes termed the off-side rule. Some other languages use indentation this way; but in most, indentation has no semantic meaning."
+	},
+	{
+		"content_id": 311,
+		"user_id": 21,
+		"comment": "@ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication. The syntax :=, called the"
+	},
+	{
+		"content_id": 126,
+		"user_id": 86,
+		"comment": "programming in the Lisp tradition. It has filter,mapandreduce functions; list comprehensions, dictionaries, sets, and generator expressions. The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell"
+	},
+	{
+		"content_id": 216,
+		"user_id": 27,
+		"comment": "e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by adding them (with the same operator as for adding integers and floats), e.g. spam +"
+	},
+	{
+		"content_id": 232,
+		"user_id": 30,
+		"comment": "(in Python 2, exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular"
+	},
+	{
+		"content_id": 132,
+		"user_id": 57,
+		"comment": "a value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators. Before 2.5, generators"
+	},
+	{
+		"content_id": 357,
+		"user_id": 57,
+		"comment": "example, acquiring a lock before it is run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom The break statement, which exits a loop The continue statement, which skips the rest of the current"
+	},
+	{
+		"content_id": 293,
+		"user_id": 43,
+		"comment": "object on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values"
+	},
+	{
+		"content_id": 57,
+		"user_id": 76,
+		"comment": "evaluates to spam=blah eggs=2. In Python 2.6+ and 3+, this was supplemented by the format() method of the str class, e.g. spam={0} eggs={1}.format(blah, 2). Python 3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by"
+	},
+	{
+		"content_id": 313,
+		"user_id": 47,
+		"comment": "side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left. Python has a string format operator % that functions analogously"
+	},
+	{
+		"content_id": 256,
+		"user_id": 48,
+		"comment": "of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity. Execution speed can be improved by moving speed-critical functions to extension modules written in"
+	},
+	{
+		"content_id": 395,
+		"user_id": 65,
+		"comment": "as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with"
+	},
+	{
+		"content_id": 4,
+		"user_id": 79,
+		"comment": "name is a generic reference holder without a fixed data type; however, it always refers to some object with a type. This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a"
+	},
+	{
+		"content_id": 22,
+		"user_id": 71,
+		"comment": "uses the + operator for string concatenation. Python uses the * operator for duplicating a string a specified number of times. The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication. The syntax :=, called the walrus operator, was introduced in Python"
+	},
+	{
+		"content_id": 234,
+		"user_id": 28,
+		"comment": "3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current Python versions only support the semantics of the new style. Python supports optional type annotations. These annotations are not enforced by"
+	},
+	{
+		"content_id": 31,
+		"user_id": 97,
+		"comment": "returns 22. Python has various string literals: Delimited by single or double quotes; unlike in Unix shells, Perl, and Perl-influenced languages, single and double quotes work the same. Both use the backslash  as an"
+	},
+	{
+		"content_id": 180,
+		"user_id": 99,
+		"comment": "whitespace indentation, rather than curly brackets or keywords, to delimit blocks. An increase in indentation comes after certain statements; a decrease in indentation signifies the end of the current block. Thus, the program's visual structure accurately represents its semantic structure. This feature is sometimes termed"
+	},
+	{
+		"content_id": 263,
+		"user_id": 64,
+		"comment": "producing an error if the variable is referred to before it is redefined The pass statement, serving as a NOP, syntactically needed to create an empty code block The assert statement, used in debugging to check for conditions that should apply The yield statement, which"
+	},
+	{
+		"content_id": 303,
+		"user_id": 72,
+		"comment": "call optimization or first-class continuations, and, according to Van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators."
+	},
+	{
+		"content_id": 5,
+		"user_id": 19,
+		"comment": "idiom The break statement, which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement, which"
+	},
+	{
+		"content_id": 270,
+		"user_id": 85,
+		"comment": "by except clauses (or new syntax except* in Python 3.11 for exception groups); it also ensures that clean-up code in a finally block is always run regardless of how"
+	},
+	{
+		"content_id": 416,
+		"user_id": 87,
+		"comment": "termed the off-side rule. Some other languages use indentation this way; but in most, indentation has no semantic meaning. The recommended indent size is four"
+	},
+	{
+		"content_id": 66,
+		"user_id": 96,
+		"comment": "statement, which defines a function or method The with statement, which encloses a code block within a context manager (for example, acquiring a lock before it is run, then releasing the lock; or opening"
+	},
+	{
+		"content_id": 28,
+		"user_id": 41,
+		"comment": "added as strings rather than integers, e.g. 2 + 2 returns 22. Python has various string literals: Delimited by single or double quotes; unlike in Unix"
+	},
+	{
+		"content_id": 429,
+		"user_id": 88,
+		"comment": "statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block The while statement, which executes"
+	},
+	{
+		"content_id": 30,
+		"user_id": 26,
+		"comment": "a generator function (and also an operator); used to implement coroutines The return statement, used to return a value from a"
+	},
+	{
+		"content_id": 211,
+		"user_id": 6,
+		"comment": "The third slice parameter, called step or stride, allows elements to be skipped and reversed. Slice indexes may be omitted—for example, a returns a copy of the entire list. Each element of a slice is"
+	},
+	{
+		"content_id": 81,
+		"user_id": 51,
+		"comment": "strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting"
+	},
+	{
+		"content_id": 336,
+		"user_id": 91,
+		"comment": "Raw string varieties, denoted by prefixing the string literal with r. Escape sequences are not interpreted; hence raw strings are useful where literal backslashes are common, such as regular expressions and Windows-style paths. (Compare @-quoting in C#.) Python has array index and array slicing expressions in lists,"
+	},
+	{
+		"content_id": 301,
+		"user_id": 72,
+		"comment": "which exits a loop The continue statement, which skips the rest of the current iteration and continues with the next The del statement, which removes a variable—deleting"
+	},
+	{
+		"content_id": 236,
+		"user_id": 75,
+		"comment": "include: The +, -, and * operators for mathematical addition, subtraction, and multiplication are similar to other languages, but the behavior of division differs. There are two types of"
+	},
+	{
+		"content_id": 406,
+		"user_id": 64,
+		"comment": "of a slice is a shallow copy. In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby."
+	},
+	{
+		"content_id": 44,
+		"user_id": 24,
+		"comment": "operator for string concatenation. Python uses the * operator for duplicating a string a specified number of times. The @ infix operator. It is"
+	},
+	{
+		"content_id": 491,
+		"user_id": 98,
+		"comment": "and semantics Main article: Python syntax and semantics Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets"
+	},
+	{
+		"content_id": 411,
+		"user_id": 50,
+		"comment": "typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that it is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding"
+	},
+	{
+		"content_id": 273,
+		"user_id": 97,
+		"comment": "style. Python supports optional type annotations. These annotations are not enforced by the language, but may be used by external tools such as mypy to catch errors. Mypy also supports a Python compiler called mypyc, which leverages type annotations for optimization."
+	},
+	{
+		"content_id": 310,
+		"user_id": 75,
+		"comment": "value of a certain type. Python does not support tail call optimization or first-class continuations, and, according to Van Rossum, it never will. However, better support for coroutine-like functionality is provided by extending Python's generators."
+	},
+	{
+		"content_id": 295,
+		"user_id": 7,
+		"comment": "untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that it is not of"
+	},
+	{
+		"content_id": 365,
+		"user_id": 23,
+		"comment": "bar. A common neologism in the Python community is pythonic, which has a wide range of meanings related to program style. Pythonic code may use Python idioms well, be natural or show fluency in the language, or conform with Python's minimalist philosophy and emphasis on"
+	},
+	{
+		"content_id": 41,
+		"user_id": 63,
+		"comment": "3.6 added f-strings: spam = blah; eggs = 2; f'spam={spam} eggs={eggs}'. Strings in Python can be concatenated by adding them (with the same operator as for adding integers and floats), e.g. spam + eggs returns spameggs. If strings contain numbers, they are added as strings"
+	},
+	{
+		"content_id": 29,
+		"user_id": 91,
+		"comment": "and Standard ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than"
+	},
+	{
+		"content_id": 352,
+		"user_id": 62,
+		"comment": "distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if blocks The eval() vs. exec() built-in functions"
+	},
+	{
+		"content_id": 427,
+		"user_id": 56,
+		"comment": "some other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic operations and"
+	},
+	{
+		"content_id": 464,
+		"user_id": 23,
+		"comment": "optimization and reject patches to non-critical parts of the CPython reference implementation that would offer marginal increases in speed at the cost of clarity. Execution speed can be improved by moving speed-critical functions to extension modules written in languages such"
+	},
+	{
+		"content_id": 90,
+		"user_id": 26,
+		"comment": "more than one way to do it motto, Python embraces a there should be one—and preferably only one—obvious way to do it. philosophy. In practice, however, Python provides many ways to achieve"
+	},
+	{
+		"content_id": 77,
+		"user_id": 33,
+		"comment": "of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection. Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style; current"
+	},
+	{
+		"content_id": 430,
+		"user_id": 31,
+		"comment": "slicing expressions in lists, denoted as a, astop] or astop:step]. Indexes are zero-based, and negative indexes are relative to the end. Slices take elements from the start index up to, but not including, the stop index. The third slice parameter, called"
+	},
+	{
+		"content_id": 177,
+		"user_id": 20,
+		"comment": "In Python, a distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads"
+	},
+	{
+		"content_id": 436,
+		"user_id": 55,
+		"comment": "a just-in-time compiler like PyPy. It is also possible to cross-compile to other languages, but it either doesn't provide the full speed-up"
+	},
+	{
+		"content_id": 222,
+		"user_id": 42,
+		"comment": "effectively modifying the contents of t while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts. Python features sequence unpacking where multiple expressions, each evaluating to anything that can be assigned (to a"
+	},
+	{
+		"content_id": 71,
+		"user_id": 71,
+		"comment": "The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication. The syntax :=, called the walrus operator, was introduced in Python 3.8. It assigns values to variables as part of a larger expression. In Python, == compares by value. Python's"
+	},
+	{
+		"content_id": 222,
+		"user_id": 11,
+		"comment": "classes, most often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming"
+	},
+	{
+		"content_id": 167,
+		"user_id": 41,
+		"comment": "speed can be improved by moving speed-critical functions to extension modules written in languages such as C, or by using a just-in-time compiler like PyPy."
+	},
+	{
+		"content_id": 95,
+		"user_id": 81,
+		"comment": "walrus operator, was introduced in Python 3.8. It assigns values to variables as part of a larger expression. In Python, == compares by value. Python's is operator may be used to"
+	},
+	{
+		"content_id": 160,
+		"user_id": 52,
+		"comment": "start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped and reversed."
+	},
+	{
+		"content_id": 442,
+		"user_id": 91,
+		"comment": "other object-oriented programming languages (e.g., C++, Java, Objective-C, Ruby). Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to"
+	},
+	{
+		"content_id": 77,
+		"user_id": 85,
+		"comment": "to format a string literal, with no certainty as to which one a programmer should use. Alex Martelli, a Fellow at the Python Software Foundation and Python book author, wrote: To describe something as 'clever' is not considered a compliment in"
+	},
+	{
+		"content_id": 454,
+		"user_id": 72,
+		"comment": "stop index. The third slice parameter, called step or stride, allows elements to be skipped and reversed. Slice indexes may be omitted—for example, a returns a copy of the entire list. Each element of a slice is a shallow copy. In Python, a"
+	},
+	{
+		"content_id": 442,
+		"user_id": 87,
+		"comment": "return statement, used to return a value from a function The import and from statements, used to import modules whose functions or variables can be used in the current program"
+	},
+	{
+		"content_id": 429,
+		"user_id": 19,
+		"comment": "or variables can be used in the current program The assignment statement (=) binds a name as a reference to a separate, dynamically allocated object. Variables may subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder without a fixed"
+	},
+	{
+		"content_id": 104,
+		"user_id": 12,
+		"comment": "class, for use in object-oriented programming The def statement, which defines a function or method The with statement, which encloses a code block within a"
+	},
+	{
+		"content_id": 28,
+		"user_id": 21,
+		"comment": "Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are allowed but rarely used. It has fewer syntactic"
+	},
+	{
+		"content_id": 244,
+		"user_id": 21,
+		"comment": "and semicolons after statements are allowed but rarely used. It has fewer syntactic exceptions and special cases than C or Pascal. Indentation Main article: Python syntax and semantics § Indentation Python uses whitespace indentation, rather than curly"
+	},
+	{
+		"content_id": 344,
+		"user_id": 22,
+		"comment": "program style. Pythonic code may use Python idioms well, be natural or show fluency in the language, or conform with Python's minimalist philosophy and emphasis on readability. Code that is difficult to understand or reads like a rough transcription from another programming language is called"
+	},
+	{
+		"content_id": 219,
+		"user_id": 42,
+		"comment": "all of its functionality into its core, Python was designed to be highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces"
+	},
+	{
+		"content_id": 316,
+		"user_id": 83,
+		"comment": "take elements from the start index up to, but not including, the stop index. The third slice parameter, called step or stride, allows elements to be skipped and reversed. Slice indexes may be omitted—for example, a returns a copy of the entire list. Each element of a slice"
+	},
+	{
+		"content_id": 80,
+		"user_id": 71,
+		"comment": "just-in-time compiler like PyPy. It is also possible to cross-compile to other languages, but it either doesn't provide the full speed-up that might be expected, since Python is a very dynamic language, or a restricted subset of Python is compiled, and possibly semantics"
+	},
+	{
+		"content_id": 382,
+		"user_id": 21,
+		"comment": "claims to strive for a simpler, less-cluttered syntax and grammar while giving developers a choice in their coding methodology. In contrast to Perl's there is more"
+	},
+	{
+		"content_id": 420,
+		"user_id": 53,
+		"comment": "however, Python provides many ways to achieve the same task. There are, for example, at least three ways to format a string literal, with no certainty as"
+	},
+	{
+		"content_id": 466,
+		"user_id": 71,
+		"comment": "was designed to be highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van Rossum's vision of a small core language with a large standard library and easily extensible interpreter stemmed from his frustrations with"
+	},
+	{
+		"content_id": 127,
+		"user_id": 91,
+		"comment": "highly extensible via modules. This compact modularity has made it particularly popular as a means of adding programmable interfaces to existing applications. Van"
+	},
+	{
+		"content_id": 198,
+		"user_id": 32,
+		"comment": "particular case is that an assignment statement such as a = 1 cannot form part of the conditional expression of a conditional statement. Methods Methods on objects are functions attached to the object's class; the syntax instance.method(argument) is, for normal methods and functions,"
+	},
+	{
+		"content_id": 96,
+		"user_id": 59,
+		"comment": "may fail, signifying that it is not of a suitable type. Despite being dynamically typed, Python is strongly typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than"
+	},
+	{
+		"content_id": 305,
+		"user_id": 52,
+		"comment": "be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and, or, and not as Boolean operators. Python has a type of expression named a list comprehension, and a more"
+	},
+	{
+		"content_id": 354,
+		"user_id": 84,
+		"comment": "uses dynamic name resolution (late binding), which binds method and variable names during program execution. Its design offers some support for functional programming in the Lisp tradition. It has filter,mapandreduce functions; list"
+	},
+	{
+		"content_id": 425,
+		"user_id": 14,
+		"comment": "can be used in the current program The assignment statement (=) binds a name as a reference to a separate, dynamically allocated object. Variables may subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder"
+	},
+	{
+		"content_id": 211,
+		"user_id": 99,
+		"comment": "The if statement, which conditionally executes a block of code, along with else and elif (a contraction of else-if) The for statement,"
+	},
+	{
+		"content_id": 64,
+		"user_id": 33,
+		"comment": "exec is a statement); the former is for expressions, the latter is for statements Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain"
+	},
+	{
+		"content_id": 330,
+		"user_id": 20,
+		"comment": "distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List"
+	},
+	{
+		"content_id": 160,
+		"user_id": 11,
+		"comment": "slice parameter, called step or stride, allows elements to be skipped and reversed. Slice indexes may be omitted—for example, a returns a copy of the entire list. Each element of a slice is a shallow copy. In Python, a distinction between expressions and statements is rigidly enforced, in contrast"
+	},
+	{
+		"content_id": 224,
+		"user_id": 99,
+		"comment": "holder without a fixed data type; however, it always refers to some object with a type. This is called dynamic typing—in contrast to statically-typed languages, where each variable may contain only a value of a certain type. Python does"
+	},
+	{
+		"content_id": 480,
+		"user_id": 31,
+		"comment": "such as: Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Readability counts. However, Python features regularly violate these principles and received criticism for adding unnecessary language bloat. Responses to these"
+	},
+	{
+		"content_id": 323,
+		"user_id": 99,
+		"comment": "distinction between expressions and statements is rigidly enforced, in contrast to languages such as Common Lisp, Scheme, or Ruby. This leads to duplicating some functionality. For example: List comprehensions vs. for-loops Conditional expressions vs. if blocks The eval() vs. exec() built-in"
+	},
+	{
+		"content_id": 98,
+		"user_id": 24,
+		"comment": "a reference to a separate, dynamically allocated object. Variables may subsequently be rebound at any time to any object. In Python, a variable name is a generic reference holder without a fixed data type; however, it always refers to some object with a"
+	},
+	{
+		"content_id": 493,
+		"user_id": 23,
+		"comment": "in unambiguous contexts. Python features sequence unpacking where multiple expressions, each evaluating to anything that can be assigned (to a variable, writable property, etc.) are"
+	},
+	{
+		"content_id": 51,
+		"user_id": 36,
+		"comment": "nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts. Python features sequence unpacking where multiple expressions, each evaluating to anything that can be"
+	},
+	{
+		"content_id": 402,
+		"user_id": 85,
+		"comment": "Main article: Python syntax and semantics Python is meant to be an easily readable language. Its formatting is visually uncluttered and often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly"
+	},
+	{
+		"content_id": 248,
+		"user_id": 44,
+		"comment": "one expression in each body. Conditional expressions are written as x if c else y (different in order of operands from the c"
+	},
+	{
+		"content_id": 140,
+		"user_id": 18,
+		"comment": "acquiring a lock before it is run, then releasing the lock; or opening and closing a file), allowing resource-acquisition-is-initialization (RAII)-like behavior and replacing a common try/finally idiom"
+	},
+	{
+		"content_id": 378,
+		"user_id": 12,
+		"comment": "used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. Python uses and, or, and not as Boolean operators. Python has a type"
+	},
+	{
+		"content_id": 48,
+		"user_id": 27,
+		"comment": "the Python culture. Python's developers usually strive to avoid premature optimization and reject patches to non-critical parts of the CPython"
+	},
+	{
+		"content_id": 485,
+		"user_id": 11,
+		"comment": "multi-paradigm programming language. Object-oriented programming and structured programming are fully supported, and many of their features support functional programming and aspect-oriented programming (including metaprogramming and metaobjects). Many other paradigms are supported via"
+	},
+	{
+		"content_id": 400,
+		"user_id": 70,
+		"comment": "to (1, 2, 3), executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), which is then assigned"
+	},
+	{
+		"content_id": 391,
+		"user_id": 43,
+		"comment": "code block to be caught and handled by except clauses (or new syntax except* in Python 3.11 for exception groups); it also ensures that clean-up code in a finally block is always run"
+	},
+	{
+		"content_id": 308,
+		"user_id": 48,
+		"comment": "returns spameggs. If strings contain numbers, they are added as strings rather than integers, e.g. 2 + 2 returns 22. Python has various string literals: Delimited by single or double quotes; unlike in Unix"
+	},
+	{
+		"content_id": 403,
+		"user_id": 34,
+		"comment": "ML. Its core philosophy is summarized in the Zen of Python (PEP 20), which includes aphorisms such as: Beautiful is better than ugly. Explicit"
+	}
+]
